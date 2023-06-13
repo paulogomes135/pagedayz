@@ -1,14 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color:white;
+    background-color: black;
     margin:0;
     padding: 0;
     width: 100%;
+    height: auto;
 }
 /*MODIFICAÇÕES DO CABEÇALHO */
 #cabecalho-conteiner{
-    background-image: url(https://i0.wp.com/www.shutterstock.com/pt/blog/wp-content/uploads/sites/4/2021/08/quebra-cabeca-2.jpg?ssl=1);
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/487826525373143008/6B21ECD5BB7A77D0A96F9913A19F8CB0843F82A0/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
     width: 100%;
+    height: 100px;
     box-shadow: 10px 5px 5px black;
     background-color: #27472D;
     display: flex;
@@ -16,9 +19,65 @@ body{
     align-items: flex-end;
     gap:100px;
 }
-#logo-dayz{
-    width: 150px;
+
+
+
+#menu{
+    display: none;
+    width: 100%; 
 }
+
+
+
+
+#burguer{
+    background-color: #27472D;
+    width: 100%;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+
+div#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.opcaos{
+    background-color: #27472D;
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+
+
+
+div.opcaos:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+#opcaos-paginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+
+
+
 #opcoes-subconteiner{
     display: flex;
     background-color: rgb(33,38,23);
@@ -30,10 +89,17 @@ body{
 /*-----------------------------------------------------*/
 a{
     text-decoration: none;
+    color:yellowgreen;
 }
+
+
+
 a:hover{
     color: rgb(113,235,154);
 }
+
+
+
 
 .links{
     text-decoration: none;
@@ -43,41 +109,20 @@ a:hover{
     
 }
 
+
+
 img{
     max-width: 100%;
     height: auto;
 }
-h1{
-    margin: 0px;
-}
 
-/*MODIFICAÇÃO DOS TITULOS PRESENTES NA MAIN-CONTEINER */
 
-#mapa-background{
-    background-color:rgb(42, 128, 71) ;
-    border: 4px solid white ;
-    width: 60%;
-    margin: 5px;
-}
 
-#bemvindo-background{
-    background-color:rgb(42, 128, 71) ;
-    border: 4px solid #71EB9A ;
-    width: 320px;
-}
-#noticias-background{
-    background-color: rgb(42, 128, 71);
-    border: 4px solid #71EB9A;
-}
-#introduçao-background{
-    background-color: rgb(42, 128, 71);
-    border: 4px solid #71EB9A;
-}
-h1{
-    box-shadow: 10px 5px 5px black;
-    padding: 5px;
-    margin-bottom: 10px;
-}
+
+
+
+
+
 /*------------------------------------------------------*/
 
 
@@ -103,6 +148,9 @@ width: 100%;
     width: 95%;
 }
 
+
+
+
 /*---------MODIFICAÇÃO NO BEM VINDO-------------*/
 #bemvindo-conteiner{
 border-right: 2px solid white;
@@ -113,6 +161,9 @@ display:flex;
 flex-direction: column;
 }
 
+
+
+
 .subconteiner-bemvindo{
     display: flex;
     flex-direction: row;
@@ -120,15 +171,37 @@ flex-direction: column;
     gap: 10px;
 }
 
+
+
+
 em{
     color: #c3f200;
 }
+
+
+
+
 .dicas-observa{
     background-color:rgba(0,0,0,0.6);
+    box-shadow: 10px 5px 5px black;
     padding: 3px;
 
 }
+
+
+
 /*----------------------------*/
+
+h1{
+    border-bottom: 4px solid white;
+}
+
+
+
+h2{
+    border-bottom: 4px solid white;
+    width: 60%;
+}
 
 
 
@@ -143,16 +216,24 @@ em{
 }
 
 
+
+
 h1+a{
     color: yellow;
     font-size:20px;
 }
 
 
+
+
 h1+a+p{
     color: yellow;
     font-size:12px;
 }
+
+
+
+
 iframe{
     width:85%;
     height: 80%;
@@ -192,6 +273,9 @@ margin: 10px;
     margin-left: 5px;
     width: 100%;
 }
+
+
+
 #conteudo-dois{
     display: flex;
     flex-direction:row;
@@ -200,22 +284,35 @@ margin: 10px;
     width: 100%;
 
 }
+
+
+
 #mapa-chernarus{
     width: 100%;
     height: 75%;
 }
 
+
+
+
 #Lista-perguntas{
     background-color: rgb(33,38,21);
     width: 80%;
-    height: 60%;
+    height: 65%;
     padding: 10px;  
     border: 2px solid white ;  
     box-shadow: 10px 5px 5px black;                          
 }
+
+
+
+
 .respostas-lista{
     color: #c3f200;
 }
+
+
+
 
 .back-ground-lista{
 background-color: rgb(33,38,21);
@@ -224,20 +321,3 @@ width: 70%;
 box-shadow: 10px 5px 5px black;
 border: 2px solid white ;  
 }
-
-/*PAGINA DA LORE*/
-.main-lore{
-    background-color:rgb(33,38,21) ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    width:100%;
-    height: auto;
-}
-.conteiner-lore{
-    background-color:rgba(0,0,0,0.6);
-    width: 80%;
-    padding: 10px;
-}
-/*---------------------------------------*/

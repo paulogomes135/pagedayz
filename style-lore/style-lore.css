@@ -1,0 +1,54 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+#cabecalho-conteiner{
+    background-image: url(https://i0.wp.com/www.shutterstock.com/pt/blog/wp-content/uploads/sites/4/2021/08/quebra-cabeca-2.jpg?ssl=1);
+    width: 100%;
+    box-shadow: 10px 5px 5px black;
+    background-color: #27472D;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:100px;
+}
+#logo-dayz{
+    width: 150px;
+}
+#opcoes-subconteiner{
+    display: flex;
+    background-color: rgb(33,38,23);
+    box-shadow: 10px 5px 5px black;
+    justify-content: space-around;
+    width: 100%;
+    gap: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(113,235,154);
+}
+
+.links{
+    text-decoration: none;
+     color:white;
+    width: 95px;
+    border-radius:20%;
+}
+
+/*CONTEUDO PRINCIPAL*/
+.main-lore{
+    background-color: rgb(33,38,21);
+    width: 100%; 
+}
+.conteiner-lore{
+ 
+background-color: black;
+}

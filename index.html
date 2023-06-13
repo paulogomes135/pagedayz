@@ -8,21 +8,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />.
+    <title>DayZWiki</title>
 </head>
 <body>
 
     <section id="cabecalho-conteiner">
-        <div id="logo-dayz"><img src="../imagens/dayz150.png" alt=""></div>
+        <div id="logo-dayz"><img src="imagens/logodayz.png" alt=""></div>
     </section>
 
-    <section>
-        <div id="opcoes-subconteiner">
-            <a  class="links" href="index.html" >&#X1F3E0Home</a>
-            <a class="links" href="../itens-pag/itens.html" target="_blank">&#X1F50Ditens</a>
-            <a  class="links" href="./Lore/lore.html" target="_blank">&#X1F4D6 História</a>
-        
-            
+    <section id="opcaos-paginas">
+
+        <div id="burguer"><span class="material-symbols-outlined" onclick="clickMenu() "> menu</span></div>
+
+        <div id="menu">
+            <div class="opcaos"><a  class="links" href="index.html" >&#X1F3E0Home</a></div>
+            <div class="opcaos"><a class="links" href="../itens-pag/itens.html" target="_blank">&#X1F50Ditens</a></div>
+            <div class="opcaos"><a  class="links" href="./style-lore/lore.html" target="_blank">&#X1F4D6 História</a></div>
         </div>
 
     </section>
@@ -34,13 +37,14 @@
             
             <div id="bemvindo-conteiner"> 
                 
-                <h1 id="bemvindo-background"> Bem-vindo ao DayZ Wiki &#X1F9DF</h1>
+                <h1> Bem-vindo ao DayZ Wiki &#X1F9DF</h1>
                 <div>
                     <p> Esta é a sua história.  
-                    Aqui você encontrará a fonte mais completa de informações sobre DayZ, incluindo o título DayZ, best-seller da Bohemia Interactive, e o clássico Arma 2 DayZ Mod, que deu início a tudo.</p>
+                    Aqui você encontrará a fonte mais completa de informações sobre DayZ, incluindo o título DayZ, best-seller da Bohemia Interactive, e o clássico Arma 2 DayZ Mod, que deu início a tudo.
+                <mark>Este site é teste e um trabalho pessoal.</mark></p>
                 </div>
 
-                <p><em> Dicas e Observações</em></p>
+                <p style="color: yellow;"><strong>Dicas e Observações:</strong></p>
 
                 <div class="subconteiner-bemvindo">
 
@@ -55,7 +59,9 @@
 
                     <div class="dicas-observa" ><span>Só fique em <em> alerta!</em>, não confie em todos os players que você encontrar. Existe uma <em> comunicação</em> no jogo por sinais. O jeito de Verificar se o cara é amigavel Aperte a tecla <em> F1</em> assim seu personagem levantará a mão, por tanto se o outro player levantar a mão ele provavelmente seja amigavel, mas a primeira regra do dayz é: <em>NÃO CONFIE EM NINGUÉM.</em> <span></div>
                 </div>  
+
                 <div class="subconteiner-bemvindo">
+
                     <div ><img src="imagens/comida-dicas150px.png" alt=""></div>
                     <div class="dicas-observa"><span>Não carregue tantos itens com você, aumentará seu peso e por enfim influência sua <strong><em> estâmina</em></strong>, que logo tem haver com o quanto você pode <strong><em>correr, pular e lutar </em></strong>. Além disso, se você não for organizado, provavelmente não vai ter espaço em sua mochila. Então guarde só o necessário! </span></div>
                     <div><img src="imagens/granade150px.png" alt=""></div>
@@ -66,15 +72,16 @@
             <strong><em> </em></strong>
 
             <div id="Noticias-conteiner">
-                <h1 id="noticias-background">Noticias&#X1F4F0</h1>
+                <h2 >Noticias&#X1F4F0</h2>
 
-                <a href="https://dayz.com/article/game-update/DayZ-Update-1-21">A atualização 1.21 já está disponível!</a>
+                <a href="https://dayz.com/article/game-update/DayZ-Update-1-21" target="_blank" style="color: yellow;">A atualização 1.21 já está disponível!</a>
 
-                <p>A atualização 1.21 está disponível para PC/Xbox Experimental!
+                <p><mark>A atualização 1.21 está disponível para PC/Xbox Experimental!</mark>
                 DayZ em 2023 - A atualização
                 de estabilidade 1.20 da atualização do desenvolvedor já está disponível!
                 </p>
-                <img src="../imagens/dayz-noticias450.jpg" alt="paisagem do jogo">
+                <img src="https://dayz.com/app-static/uploads/article/163/OKBO7xp.jpeg" alt="paisagem do jogo">
+                <p class="dicas-observa">Você também pode ficar ligado em quais servidores do dayz está online e quais servidores são disponiveis na sua região. Clicando <a href="https://www.battlemetrics.com/servers/dayz">aqui!</a></p>
             </div>
 
            
@@ -85,7 +92,7 @@
         <section id="conteudo-dois">
 
             <div id="mapa-chernarus">
-                <h1 id="mapa-background">Mapa de Chernarus &#XFE0F</h1>
+                <h2>Mapa de Chernarus &#XFE0F</h2>
                 <iframe  src="https://dayz.ginfo.gg/#c=-54;-59;2" frameborder="0"></iframe>
             </div>
             
@@ -110,7 +117,7 @@
             <div id="influencers-dayz">
                 <h2>Influencers</h2>
                 <ul>
-                    <li class="back-ground-lista">FA gaming
+                    <li class="back-ground-lista"><p>&#X1F4BB FA gaming</p>
                         <p> Joga desde os primórdios do Dayz. Youtuber muito famoso no nicho de jogos
                             de sobrevivência. Com os videos dele e principalmente o que está sendo indicado no site, você poderá
                         aprender o básico do game. </p>
@@ -123,7 +130,7 @@
                          allowfullscreen>
                         </iframe>
                      </li>
-                     <li class="back-ground-lista">Smoker
+                     <li class="back-ground-lista"><p class="influencers">&#X1F4BBSmoker</p>
                         <p>Smoker é um jogador norte americano que tem mais de 9000 horas de Dayz.
                             Para você que está mais acostumado com conteúdos em inglês, ele é uma ótima opção para aprender sobre pvp, "looting" e sobrevivência                
                         </p>
@@ -137,7 +144,7 @@
 
 
                      </li>
-                     <li class="back-ground-lista">Peppers
+                     <li class="back-ground-lista"><p>&#X1F4BB Peppers</p>
                         <p>Jogador experiente e muito fomoso no nicho da comunidade de Dayz. Faz vários videos de dicas e até dicas de pvp, recomendo o canal dele para Brasileiros, já que não temos muitos "Youtubers" brasileiros nesse nicho. </p>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Qa4ph_1cE64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -161,5 +168,15 @@
         <a class="link-redes" href="https://discord.com/invite/dayz"><img src="../imagens/logo-discord30px.png" alt="icone do discord"></a>
     </footer>
     
+    <script>
+        function clickMenu(){
+            if(menu.style.display == 'block'){
+                menu.style.display = 'none'
+            }
+            else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
